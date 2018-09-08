@@ -1,0 +1,58 @@
+uuid: 6d976f4e-b2f5-4cef-8982-5011f70ddb9c
+langcode: nb
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.search_resultat
+    - field.field.taxonomy_term.team.field_class
+    - field.field.taxonomy_term.team.field_club
+    - field.field.taxonomy_term.team.field_homepage
+    - field.field.taxonomy_term.team.field_image
+    - field.field.taxonomy_term.team.field_place
+    - taxonomy.vocabulary.team
+  module:
+    - ds
+third_party_settings:
+  ds:
+    layout:
+      id: bs_1col
+      path: modules/contrib/bootstrap_layouts
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          attributes: ''
+          add_layout_class: 1
+        regions:
+          main:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      main:
+        - 'dynamic_token_field:taxonomy_term-teamlink'
+    fields:
+      'dynamic_token_field:taxonomy_term-teamlink':
+        plugin_id: 'dynamic_token_field:taxonomy_term-teamlink'
+        weight: 0
+        label: hidden
+        formatter: default
+id: taxonomy_term.team.search_resultat
+targetEntityType: taxonomy_term
+bundle: team
+mode: search_resultat
+content: {  }
+hidden:
+  description: true
+  field_class: true
+  field_club: true
+  field_homepage: true
+  field_image: true
+  field_place: true
+  langcode: true

@@ -1,0 +1,10 @@
+uuid: 328608d8-b797-4308-9540-327dbb39be1d
+langcode: nb
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.search_resultat
+label: 'Utheving av innskrevet søkeresultat'
+targetEntityType: taxonomy_term
+cache: true

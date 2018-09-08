@@ -1,0 +1,22 @@
+uuid: 75aa43c4-3953-40e4-a280-e5fb8f957f62
+langcode: nb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mvbk_nm_bootstrap
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: mvbk_nm_bootstrap_content
+theme: mvbk_nm_bootstrap
+region: content
+weight: -8
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

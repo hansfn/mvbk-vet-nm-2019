@@ -1,0 +1,20 @@
+uuid: 43c22b28-4efc-480c-98e4-56a332c92b4f
+langcode: nb
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_national_matches
+field_name: field_national_matches
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

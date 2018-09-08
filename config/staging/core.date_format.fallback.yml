@@ -1,0 +1,10 @@
+uuid: 46eb25b5-1493-487c-9825-5ca3da2c79f1
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7klS5IWXrwzVaPpYZFAs6wcx8U2FF1X73OfrtTsvuvE
+id: fallback
+label: Reservedatoformat
+locked: true
+pattern: 'D, m/d/Y - H:i'

@@ -1,0 +1,23 @@
+uuid: 3119fda4-0a0b-42f6-9ad1-aa270f0edd68
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Y9NmnZHQq20ASSyTNA6JnwtWrJJiSajOehGDtmUFdM0
+name: max_220x220
+label: 'Max 220×220'
+effects:
+  bddf0d06-42f9-4c75-a700-a33cafa25ea0:
+    uuid: bddf0d06-42f9-4c75-a700-a33cafa25ea0
+    id: image_scale
+    weight: -9
+    data:
+      width: 220
+      height: 220
+      upscale: false
+  0c5ea158-507e-4e33-b811-0c6675c2f655:
+    uuid: 0c5ea158-507e-4e33-b811-0c6675c2f655
+    id: image_auto_orientate
+    weight: -10
+    data:
+      scan_exif: 1

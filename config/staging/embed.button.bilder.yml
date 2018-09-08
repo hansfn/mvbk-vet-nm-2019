@@ -1,0 +1,25 @@
+uuid: 461f6c36-a1a4-4cc2-bf45-d6ca7ed40e06
+langcode: nb
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.bilde
+  content:
+    - 'file:file:5fd98b79-85bc-404f-8ec4-a1a8d5229c55'
+  module:
+    - entity_embed
+    - media_entity
+label: Bilder
+id: bilder
+type_id: entity
+type_settings:
+  entity_type: media
+  bundles:
+    - bilde
+  display_plugins:
+    - 'view_mode:media.bare_bilde'
+    - 'entity_reference:media_thumbnail'
+  entity_browser: media_browser
+  entity_browser_settings:
+    display_review: false
+icon_uuid: 5fd98b79-85bc-404f-8ec4-a1a8d5229c55

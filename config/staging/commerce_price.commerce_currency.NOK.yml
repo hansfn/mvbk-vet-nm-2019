@@ -1,0 +1,9 @@
+uuid: 0083a694-ed27-4a92-8c85-047ea70d1bae
+langcode: nb
+status: true
+dependencies: {  }
+currencyCode: NOK
+name: 'norske kroner'
+numericCode: '578'
+symbol: kr
+fractionDigits: 2

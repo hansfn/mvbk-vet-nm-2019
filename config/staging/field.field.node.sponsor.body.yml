@@ -1,0 +1,22 @@
+uuid: e08b9c99-16cc-4546-8b8a-e9d19bc90d81
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.sponsor
+  module:
+    - text
+id: node.sponsor.body
+field_name: body
+entity_type: node
+bundle: sponsor
+label: Beskrivelse
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

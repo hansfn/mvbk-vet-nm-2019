@@ -1,0 +1,27 @@
+uuid: 6ea109af-c71a-47a1-9135-a37a20654cb8
+langcode: nb
+status: true
+dependencies:
+  module:
+    - commerce_cart
+    - system
+  theme:
+    - bootstrap
+id: cart
+theme: bootstrap
+region: sidebar_second
+weight: 0
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Handlevogn
+  provider: commerce_cart
+  label_display: visible
+  dropdown: true
+visibility:
+  request_path:
+    id: request_path
+    pages: "/nettbutikk\r\n/product/*"
+    negate: false
+    context_mapping: {  }

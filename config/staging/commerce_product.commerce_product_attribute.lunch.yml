@@ -1,0 +1,7 @@
+uuid: 17effe0e-61eb-4085-8e1a-9af8d54e2496
+langcode: nb
+status: true
+dependencies: {  }
+id: lunch
+label: Formiddag
+elementType: select

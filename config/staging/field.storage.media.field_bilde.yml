@@ -1,0 +1,30 @@
+uuid: c578fbaa-0b29-4238-a56d-ff344e86a790
+langcode: nb
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - media_entity
+id: media.field_bilde
+field_name: field_bilde
+entity_type: media
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

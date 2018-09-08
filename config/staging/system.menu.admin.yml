@@ -1,0 +1,10 @@
+uuid: 658f0024-bf67-440e-b29a-276e5c1278b9
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sapEi2YDGoI9yQIT_WgIV2vUdQ6DScH0V3fAyTadAL0
+id: admin
+label: Administrasjon
+description: 'Lenker for administrativ oppgaver'
+locked: true

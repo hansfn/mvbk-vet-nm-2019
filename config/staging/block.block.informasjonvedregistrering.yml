@@ -1,0 +1,31 @@
+uuid: aa6d16f1-565e-4835-87a8-b7af47dbd8eb
+langcode: nb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b36d4373-0828-4709-b5e7-f8db029a4da2'
+  module:
+    - block_content
+    - system
+  theme:
+    - mvbk_nm_bootstrap
+id: informasjonvedregistrering
+theme: mvbk_nm_bootstrap
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:b36d4373-0828-4709-b5e7-f8db029a4da2'
+settings:
+  id: 'block_content:b36d4373-0828-4709-b5e7-f8db029a4da2'
+  label: 'Informasjon ved registrering'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /user/register
+    negate: false
+    context_mapping: {  }

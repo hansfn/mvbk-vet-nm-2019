@@ -1,0 +1,48 @@
+uuid: 5bc28a9f-d309-4226-9c2c-b7548cc8d694
+langcode: nb
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.bilde
+    - views.view.media_list
+  module:
+    - dropzonejs_eb_widget
+    - media_entity
+    - views
+name: media_browser
+label: 'Media browser'
+display: iframe
+display_configuration:
+  width: '1000'
+  height: '700'
+  link_text: 'Velg media'
+  auto_open: true
+selection_display: no_display
+selection_display_configuration:
+  view: media_list
+  view_display: entity_browser_1
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  50844ad0-4df9-4e77-9f72-f1b648c728c8:
+    settings:
+      media_entity_bundle: bilde
+      upload_location: 'public://[date:custom:Y]-[date:custom:m]'
+      dropzone_description: 'Drop files here to upload them'
+      max_filesize: 2M
+      extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
+      submit_text: 'Velg bilder'
+    uuid: 50844ad0-4df9-4e77-9f72-f1b648c728c8
+    weight: 1
+    label: Mediaopplasting
+    id: dropzonejs_media_entity
+  c91f814f-0ab5-4e07-833c-c1432f1c947e:
+    settings:
+      view: media_list
+      view_display: entity_browser_1
+      submit_text: 'Velg bilder'
+      auto_select: false
+    uuid: c91f814f-0ab5-4e07-833c-c1432f1c947e
+    weight: 2
+    label: Mediabibliotek
+    id: view

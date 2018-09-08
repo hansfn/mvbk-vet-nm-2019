@@ -1,0 +1,110 @@
+uuid: 987e7694-f8e9-4880-b87c-843a8d540e0e
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.team.field_class
+    - field.field.taxonomy_term.team.field_club
+    - field.field.taxonomy_term.team.field_group
+    - field.field.taxonomy_term.team.field_homepage
+    - field.field.taxonomy_term.team.field_image
+    - field.field.taxonomy_term.team.field_place
+    - field.field.taxonomy_term.team.field_results
+    - field.field.taxonomy_term.team.field_seed
+    - image.style.max_480x480
+    - taxonomy.vocabulary.team
+  module:
+    - ds
+    - image
+    - link
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: bs_2col
+      path: modules/contrib/bootstrap_layouts
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          attributes: ''
+          add_layout_class: 1
+        regions:
+          left:
+            wrapper: div
+            classes:
+              col-sm-6: col-sm-6
+            add_region_classes: 1
+            attributes: ''
+          right:
+            wrapper: div
+            classes:
+              col-sm-6: col-sm-6
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      left:
+        - field_image
+      right:
+        - field_place
+        - field_homepage
+        - description
+        - field_results
+id: taxonomy_term.team.default
+targetEntityType: taxonomy_term
+bundle: team
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+  field_homepage:
+    weight: 2
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: max_480x480
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_place:
+    weight: 1
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_results:
+    weight: 4
+    label: above
+    settings:
+      trim_length: 100
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+    type: link
+hidden:
+  field_class: true
+  field_club: true
+  field_group: true
+  field_seed: true
+  langcode: true

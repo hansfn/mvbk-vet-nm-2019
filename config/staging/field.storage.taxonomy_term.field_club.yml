@@ -1,0 +1,93 @@
+uuid: cf22debe-16d7-4b68-9a87-73c30d92acfc
+langcode: nb
+status: true
+dependencies:
+  module:
+    - options
+    - taxonomy
+id: taxonomy_term.field_club
+field_name: field_club
+entity_type: taxonomy_term
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: 'Asker skiklubb'
+    -
+      value: '2'
+      label: 'Askim VBK'
+    -
+      value: '3'
+      label: 'Austrått IL'
+    -
+      value: '4'
+      label: 'BK Tromsø'
+    -
+      value: '5'
+      label: 'Blindheim IL'
+    -
+      value: '6'
+      label: 'Bodø volley'
+    -
+      value: '7'
+      label: 'Brøstadbotn IL'
+    -
+      value: '8'
+      label: 'Dristug IL'
+    -
+      value: '9'
+      label: 'Førde VBK'
+    -
+      value: '10'
+      label: 'KFUM Stavanger'
+    -
+      value: '11'
+      label: 'KFUM Volda'
+    -
+      value: '12'
+      label: 'Koll IL'
+    -
+      value: '13'
+      label: 'Kristiansand SVBK'
+    -
+      value: '14'
+      label: 'Lierne IL'
+    -
+      value: '15'
+      label: 'Molde VBK'
+    -
+      value: '16'
+      label: 'Oslo volley'
+    -
+      value: '17'
+      label: 'Rossvoll VBK'
+    -
+      value: '18'
+      label: 'Sandnes VBK'
+    -
+      value: '19'
+      label: 'Skjeberg VBK'
+    -
+      value: '20'
+      label: 'Skjetten volley'
+    -
+      value: '21'
+      label: 'Sotra VBK'
+    -
+      value: '22'
+      label: 'Strand-Ulv IL'
+    -
+      value: '23'
+      label: 'TIF Viking'
+    -
+      value: '24'
+      label: 'Tønsberg VBK'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

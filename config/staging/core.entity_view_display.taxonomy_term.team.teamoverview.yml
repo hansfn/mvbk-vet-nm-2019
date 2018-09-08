@@ -1,0 +1,153 @@
+uuid: c9400eea-4984-4b06-a448-33dcc6fe7c3f
+langcode: nb
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.taxonomy_term.teamoverview
+    - field.field.taxonomy_term.team.field_class
+    - field.field.taxonomy_term.team.field_club
+    - field.field.taxonomy_term.team.field_group
+    - field.field.taxonomy_term.team.field_homepage
+    - field.field.taxonomy_term.team.field_image
+    - field.field.taxonomy_term.team.field_place
+    - field.field.taxonomy_term.team.field_results
+    - field.field.taxonomy_term.team.field_seed
+    - image.style.max_480x480
+    - taxonomy.vocabulary.team
+  module:
+    - ds
+    - image
+    - link
+    - options
+    - text
+third_party_settings:
+  ds:
+    layout:
+      id: bs_2col
+      path: modules/contrib/bootstrap_layouts
+      library: ''
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        layout:
+          wrapper: div
+          classes:
+            row: row
+          attributes: ''
+          add_layout_class: 1
+        regions:
+          top:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+          left:
+            wrapper: div
+            classes:
+              col-sm-6: col-sm-6
+            add_region_classes: 1
+            attributes: ''
+          right:
+            wrapper: div
+            classes:
+              col-sm-6: col-sm-6
+            add_region_classes: 1
+            attributes: ''
+          bottom:
+            wrapper: div
+            classes:
+              col-sm-12: col-sm-12
+            add_region_classes: 1
+            attributes: ''
+    regions:
+      left:
+        - field_image
+      right:
+        - field_place
+        - field_homepage
+        - description
+        - field_results
+id: taxonomy_term.team.teamoverview
+targetEntityType: taxonomy_term
+bundle: team
+mode: teamoverview
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 3
+    settings: {  }
+    third_party_settings: {  }
+  field_class:
+    type: list_key
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_club:
+    type: list_key
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_group:
+    type: list_key
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+  field_homepage:
+    weight: 2
+    label: inline
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+  field_image:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: max_480x480
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_place:
+    weight: 1
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  field_results:
+    type: link
+    weight: 4
+    label: above
+    settings:
+      trim_length: 100
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: '0'
+    third_party_settings: {  }
+  field_seed:
+    type: number_integer
+    weight: 0
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+  langcode:
+    type: language
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+      native_language: false
+    third_party_settings: {  }
+hidden: {  }

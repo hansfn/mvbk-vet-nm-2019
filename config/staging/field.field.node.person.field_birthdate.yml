@@ -1,0 +1,24 @@
+uuid: 1b568dbc-cfcd-4687-9bfc-5fe6996e03fe
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_birthdate
+    - node.type.person
+  module:
+    - datetime
+id: node.person.field_birthdate
+field_name: field_birthdate
+entity_type: node
+bundle: person
+label: Fødselsdato
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: relative
+    default_date: '-18 years'
+default_value_callback: ''
+settings: {  }
+field_type: datetime

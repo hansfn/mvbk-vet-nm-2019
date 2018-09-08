@@ -1,0 +1,23 @@
+uuid: 30f6c5f3-64f3-4b4d-b788-f2963030ad91
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_reach
+    - node.type.person
+id: node.person.field_reach
+field_name: field_reach
+entity_type: node
+bundle: person
+label: Rekkevidde
+description: 'Spillerens rekkevidde (i angrep, ikke blokk)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 200
+  max: 400
+  prefix: ''
+  suffix: ' cm'
+field_type: integer

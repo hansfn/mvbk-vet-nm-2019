@@ -1,0 +1,23 @@
+uuid: 35eded9d-d99a-413f-9dea-897b636b3989
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_jersey_number
+    - node.type.person
+id: node.person.field_jersey_number
+field_name: field_jersey_number
+entity_type: node
+bundle: person
+label: Spilledrakt
+description: 'Nummer på spilledrakt.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 100
+  prefix: ''
+  suffix: ''
+field_type: integer

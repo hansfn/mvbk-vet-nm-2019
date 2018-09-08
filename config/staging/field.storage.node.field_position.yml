@@ -1,0 +1,42 @@
+uuid: b0b49d34-de69-4d70-acc7-b938bbc737b8
+langcode: nb
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_position
+field_name: field_position
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: Opplegger
+    -
+      value: '2'
+      label: Kant
+    -
+      value: '3'
+      label: Midt
+    -
+      value: '4'
+      label: Diagonal
+    -
+      value: '5'
+      label: Libero
+    -
+      value: '6'
+      label: Trener
+    -
+      value: '7'
+      label: Dommer
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

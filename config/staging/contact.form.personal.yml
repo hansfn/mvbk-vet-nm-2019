@@ -1,0 +1,13 @@
+uuid: 93dfcc27-63a0-4d7c-a0ab-37e1f44bc8dd
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Personlig kontaktskjema'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'Din melding har blitt sendt.'
+redirect: ''

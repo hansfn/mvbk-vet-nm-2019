@@ -1,0 +1,22 @@
+uuid: f2d03e1c-3897-40c2-97d6-58d5285ffd51
+langcode: nb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - mvbk_nm_bootstrap
+_core:
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: mvbk_nm_bootstrap_messages
+theme: mvbk_nm_bootstrap
+region: header
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

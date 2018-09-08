@@ -1,0 +1,29 @@
+uuid: 49439d16-0f31-40d0-8fed-2c192793eea9
+langcode: nb
+status: true
+dependencies:
+  config:
+    - system.menu.utvalgt-informasjon
+  module:
+    - system
+  theme:
+    - mvbk_nm_bootstrap
+id: mvbk_nm_bootstrap_utvalgtinformasjon
+theme: mvbk_nm_bootstrap
+region: sidebar_second
+weight: -10
+provider: null
+plugin: 'system_menu_block:utvalgt-informasjon'
+settings:
+  id: 'system_menu_block:utvalgt-informasjon'
+  label: 'Utvalgt info'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

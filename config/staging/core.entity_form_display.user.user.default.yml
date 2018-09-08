@@ -1,0 +1,41 @@
+uuid: 414520ef-2640-498a-9fa4-4abea995229f
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.field.user.user.commerce_remote_id
+    - field.field.user.user.field_phone
+    - field.field.user.user.field_team
+    - field.field.user.user.user_picture
+  module:
+    - user
+_core:
+  default_config_hash: LLAieeozVsoZDb-2PbFxRJpQqnKmpR7-4OoRJnduz-U
+id: user.user.default
+targetEntityType: user
+bundle: user
+mode: default
+content:
+  account:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+  field_phone:
+    weight: 1
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+  field_team:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+hidden:
+  commerce_remote_id: true
+  contact: true
+  langcode: true
+  language: true
+  timezone: true
+  user_picture: true

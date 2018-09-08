@@ -1,0 +1,27 @@
+uuid: 7aef5e88-ff03-4b0f-84ee-55eb1e6e06d9
+langcode: nb
+status: true
+dependencies:
+  module:
+    - commerce_cart
+    - system
+  theme:
+    - mvbk_nm_bootstrap
+id: mvbk_nm_bootstrap_cart
+theme: mvbk_nm_bootstrap
+region: sidebar_second
+weight: -8
+provider: null
+plugin: commerce_cart
+settings:
+  id: commerce_cart
+  label: Handlevogn
+  provider: commerce_cart
+  label_display: '0'
+  dropdown: true
+visibility:
+  request_path:
+    id: request_path
+    pages: "/nettbutikk\r\n/product/*"
+    negate: false
+    context_mapping: {  }

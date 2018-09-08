@@ -1,0 +1,12 @@
+uuid: 4499b606-e98d-4ad6-8546-bb47be462b01
+langcode: nb
+status: false
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: ElrtInxGjZd7GaapJ5O9n-ugi2hG2IxFivtgn0tHOsk
+id: node.full
+label: 'Fullstendig innhold'
+targetEntityType: node
+cache: true

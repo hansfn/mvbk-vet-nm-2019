@@ -1,0 +1,11 @@
+uuid: 8fce1c5f-756e-4f1f-85e9-e4a4d7a7f989
+langcode: nb
+status: true
+dependencies:
+  config:
+    - media_entity.bundle.bilde
+id: media.bilde
+target_entity_type_id: media
+target_bundle: bilde
+default_langcode: site_default
+language_alterable: false

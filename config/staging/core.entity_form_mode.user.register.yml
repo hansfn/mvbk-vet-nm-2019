@@ -1,0 +1,12 @@
+uuid: 8dfbb6a7-d9d0-47af-9581-22ce91a77cfa
+langcode: nb
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: flXhTcp55yLcyy7ZLOhPGKGZobZQJdkAFVWV3LseiuI
+id: user.register
+label: Registrer
+targetEntityType: user
+cache: true

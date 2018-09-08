@@ -1,0 +1,27 @@
+uuid: 171fc627-71f7-4e18-9a36-e6cf17434aed
+langcode: nb
+status: true
+dependencies:
+  module:
+    - options
+    - taxonomy
+id: taxonomy_term.field_class
+field_name: field_class
+entity_type: taxonomy_term
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: g19
+      label: G19
+    -
+      value: j19
+      label: J19
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

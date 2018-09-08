@@ -1,0 +1,16 @@
+uuid: 3a21c683-74f4-4888-aec5-82ea68402fe7
+langcode: nb
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_cart
+      - commerce_product
+  module:
+    - commerce_product
+_core:
+  default_config_hash: SjZo-csuMc7wQHh55OpVRuTrQTp8zy3k6cR9RykDWIg
+id: commerce_product_variation.cart
+label: Handlevogn
+targetEntityType: commerce_product_variation
+cache: true

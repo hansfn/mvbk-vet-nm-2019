@@ -1,0 +1,14 @@
+uuid: 804c095a-20c1-4c06-a519-ade3b2cd1910
+langcode: nb
+status: true
+dependencies:
+  config:
+    - user.role.lagleder
+  module:
+    - user
+id: user_add_role_action.lagleder
+label: 'Legg til rollen Lagleder for de valgte brukerne'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: lagleder

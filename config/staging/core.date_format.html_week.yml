@@ -1,0 +1,10 @@
+uuid: 8521727f-b6b7-4e63-9d78-eb6945e9ef9e
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: wKD4WsoV_wFgv2vgI4mcAAFSIzrye17ykzdwrnApkfY
+id: html_week
+label: 'HTML uke'
+locked: true
+pattern: Y-\WW

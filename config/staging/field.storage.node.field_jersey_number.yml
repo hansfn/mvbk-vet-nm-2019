@@ -1,0 +1,20 @@
+uuid: 7f8b3005-3aa2-414f-914b-8f4e526119ee
+langcode: nb
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_jersey_number
+field_name: field_jersey_number
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

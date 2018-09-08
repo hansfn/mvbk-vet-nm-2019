@@ -1,0 +1,18 @@
+uuid: 26310f34-be8d-488b-b046-777a06d0925d
+langcode: nb
+status: true
+dependencies:
+  module:
+    - media_entity_image
+id: bilde
+label: Bilde
+description: 'Ordinære bilder'
+type: image
+queue_thumbnail_downloads: false
+new_revision: false
+type_configuration:
+  source_field: field_bilde
+  gather_exif: true
+field_map:
+  width: field_bredde
+  height: field_hoyde

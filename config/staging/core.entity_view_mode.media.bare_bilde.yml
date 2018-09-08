@@ -1,0 +1,10 @@
+uuid: 42af9afc-2f5a-4ff5-a6d4-e5982c9d083e
+langcode: nb
+status: true
+dependencies:
+  module:
+    - media_entity
+id: media.bare_bilde
+label: 'Bare bilde'
+targetEntityType: media
+cache: true

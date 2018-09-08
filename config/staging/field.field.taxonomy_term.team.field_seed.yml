@@ -1,0 +1,23 @@
+uuid: 5deab90e-4c17-4943-b0ee-43dbc1d621bd
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_seed
+    - taxonomy.vocabulary.team
+id: taxonomy_term.team.field_seed
+field_name: field_seed
+entity_type: taxonomy_term
+bundle: team
+label: Seed
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 16
+  prefix: ''
+  suffix: ''
+field_type: integer

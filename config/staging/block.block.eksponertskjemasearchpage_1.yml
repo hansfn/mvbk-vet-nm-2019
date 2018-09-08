@@ -1,0 +1,29 @@
+uuid: 4abaa4b3-b472-4c84-8df3-c0f6fde8530c
+langcode: nb
+status: true
+dependencies:
+  config:
+    - views.view.search
+  module:
+    - system
+    - views
+  theme:
+    - mvbk_nm_bootstrap
+id: eksponertskjemasearchpage_1
+theme: mvbk_nm_bootstrap
+region: sidebar_second
+weight: -11
+provider: null
+plugin: 'views_exposed_filter_block:search-page_1'
+settings:
+  id: 'views_exposed_filter_block:search-page_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: "<front>\r\n/sok"
+    negate: false
+    context_mapping: {  }

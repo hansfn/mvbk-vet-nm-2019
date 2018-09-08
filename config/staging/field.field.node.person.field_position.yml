@@ -1,0 +1,21 @@
+uuid: 0357ebf2-6d4b-45d8-b2ee-f2b970453ad0
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_position
+    - node.type.person
+  module:
+    - options
+id: node.person.field_position
+field_name: field_position
+entity_type: node
+bundle: person
+label: Posisjon
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

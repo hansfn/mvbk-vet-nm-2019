@@ -1,0 +1,23 @@
+uuid: aa883870-0ff6-44f4-b9a4-aadad8426f91
+langcode: nb
+status: true
+dependencies:
+  module:
+    - entity_embed
+    - file
+    - image
+_core:
+  default_config_hash: D5QbkhbHfWlohKBxTofPCBUqp9vCE2dFnJii5JdWEk4
+label: Filutforsker
+id: file_browser
+type_id: entity
+type_settings:
+  entity_type: file
+  bundles: {  }
+  display_plugins:
+    - 'file:file_default'
+    - 'image:image'
+  entity_browser: browse_files
+  entity_browser_settings:
+    display_review: false
+icon_uuid: db2cad05-1e3b-4b35-b163-99d7d036130c

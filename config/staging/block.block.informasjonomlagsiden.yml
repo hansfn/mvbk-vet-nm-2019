@@ -1,0 +1,31 @@
+uuid: 6a71d899-3e5f-474d-9842-73880bffd3d1
+langcode: nb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9d1e5ef9-1f31-48bb-a2ec-78e861987e2c'
+  module:
+    - block_content
+    - system
+  theme:
+    - mvbk_nm_bootstrap
+id: informasjonomlagsiden
+theme: mvbk_nm_bootstrap
+region: content
+weight: -12
+provider: null
+plugin: 'block_content:9d1e5ef9-1f31-48bb-a2ec-78e861987e2c'
+settings:
+  id: 'block_content:9d1e5ef9-1f31-48bb-a2ec-78e861987e2c'
+  label: 'Informasjon om lagsiden'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '/taxonomy/term/*/edit'
+    negate: false
+    context_mapping: {  }

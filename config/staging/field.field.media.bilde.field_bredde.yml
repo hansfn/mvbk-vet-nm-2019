@@ -1,0 +1,19 @@
+uuid: a432b951-a744-476e-b1d4-b6b878b9f330
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_bredde
+    - media_entity.bundle.bilde
+id: media.bilde.field_bredde
+field_name: field_bredde
+entity_type: media
+bundle: bilde
+label: Bredde
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

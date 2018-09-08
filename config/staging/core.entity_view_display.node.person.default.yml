@@ -1,0 +1,92 @@
+uuid: 33450454-d34c-48db-81c5-67c4202b5b0c
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.field.node.person.field_birthdate
+    - field.field.node.person.field_height
+    - field.field.node.person.field_image
+    - field.field.node.person.field_jersey_number
+    - field.field.node.person.field_national_matches
+    - field.field.node.person.field_position
+    - field.field.node.person.field_reach
+    - field.field.node.person.field_team
+    - image.style.max_220x220
+    - node.type.person
+  module:
+    - datetime
+    - image
+    - options
+    - user
+id: node.person.default
+targetEntityType: node
+bundle: person
+mode: default
+content:
+  field_birthdate:
+    weight: 7
+    label: inline
+    settings:
+      timezone_override: ''
+      format_type: short
+    third_party_settings: {  }
+    type: datetime_default
+  field_height:
+    weight: 2
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_image:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: max_220x220
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_jersey_number:
+    weight: 6
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_national_matches:
+    weight: 5
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_position:
+    weight: 4
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+  field_reach:
+    weight: 3
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+  field_team:
+    weight: 0
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  links:
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

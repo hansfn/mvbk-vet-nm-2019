@@ -1,0 +1,10 @@
+uuid: e7cf6613-29ce-4748-ad58-ccc867a9c136
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: uXc7SNfdNF3TJ81MWGMvCjsKlNSElo6Cc0lTrhLSels
+id: online
+label: Tilkoblet
+description: ''
+traits: {  }

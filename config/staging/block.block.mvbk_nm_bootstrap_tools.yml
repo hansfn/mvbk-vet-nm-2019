@@ -1,0 +1,26 @@
+uuid: 79abba82-a1e2-44b3-a564-ac6ad4069141
+langcode: nb
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - mvbk_nm_bootstrap
+_core:
+  default_config_hash: f3Dd5TnUiFDjFZp9yEGJInwt6cUzs7O6SvLTFTATSlU
+id: mvbk_nm_bootstrap_tools
+theme: mvbk_nm_bootstrap
+region: '-1'
+weight: -6
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: b6de9335-2b54-4a8e-b9d5-a50d3822b5c0
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_group
+    - taxonomy.vocabulary.team
+  module:
+    - options
+id: taxonomy_term.team.field_group
+field_name: field_group
+entity_type: taxonomy_term
+bundle: team
+label: Pulje
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

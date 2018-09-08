@@ -1,0 +1,32 @@
+uuid: 3d676f6f-b266-426c-851f-3fe635e4ca79
+langcode: nb
+status: true
+dependencies:
+  config:
+    - views.view.menu_teamleader
+  module:
+    - user
+    - views
+  theme:
+    - mvbk_nm_bootstrap
+id: views_block__menu_teamleader_block_1
+theme: mvbk_nm_bootstrap
+region: sidebar_second
+weight: -9
+provider: null
+plugin: 'views_block:menu_teamleader-block_1'
+settings:
+  id: 'views_block:menu_teamleader-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      lagleder: lagleder
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

@@ -1,0 +1,11 @@
+id: teamlink
+label: Laglenke
+ui_limit: ''
+properties:
+  content:
+    value: "<h2><a href=\"/lag/[term:tid]\">[term:name]</a></h2>\r\n"
+    format: full_html
+type: token
+type_label: 'Token field'
+entities:
+  taxonomy_term: taxonomy_term

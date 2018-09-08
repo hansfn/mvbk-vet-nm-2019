@@ -1,0 +1,26 @@
+uuid: 0f0b08d0-2603-4c6e-9fd6-b4bfde19315f
+langcode: nb
+status: true
+dependencies:
+  enforced:
+    module:
+      - responsive_image
+_core:
+  default_config_hash: xW1ApqbWjK7oCBCl8jVHA42u2MekQDq4gry3xfZzdWY
+name: max_1300x1300
+label: 'Max 1300x1300'
+effects:
+  04caae9a-fa3e-4ea6-ae09-9c26aec7d308:
+    uuid: 04caae9a-fa3e-4ea6-ae09-9c26aec7d308
+    id: image_scale
+    weight: -9
+    data:
+      width: 1300
+      height: 1300
+      upscale: false
+  a6aba308-04d8-4acd-acfa-1cb420a84d11:
+    uuid: a6aba308-04d8-4acd-acfa-1cb420a84d11
+    id: image_auto_orientate
+    weight: -10
+    data:
+      scan_exif: 1

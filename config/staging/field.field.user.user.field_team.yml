@@ -1,0 +1,26 @@
+uuid: bb7915fd-b2da-4761-b3c2-6e11063b4752
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_team
+  module:
+    - user
+id: user.user.field_team
+field_name: field_team
+entity_type: user
+bundle: user
+label: Lag
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: views
+  handler_settings:
+    view:
+      view_name: team_selection
+      display_name: entity_reference_2
+      arguments: {  }
+field_type: entity_reference

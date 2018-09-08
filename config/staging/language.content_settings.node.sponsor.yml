@@ -1,0 +1,11 @@
+uuid: 6b6f233a-0036-4b1f-8061-600da7ef5b4d
+langcode: nb
+status: true
+dependencies:
+  config:
+    - node.type.sponsor
+id: node.sponsor
+target_entity_type_id: node
+target_bundle: sponsor
+default_langcode: site_default
+language_alterable: false

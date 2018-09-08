@@ -1,0 +1,21 @@
+uuid: 879ce6b6-da30-490a-9cca-bd9c72380066
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_club
+    - taxonomy.vocabulary.team
+  module:
+    - options
+id: taxonomy_term.team.field_club
+field_name: field_club
+entity_type: taxonomy_term
+bundle: team
+label: Klubb
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

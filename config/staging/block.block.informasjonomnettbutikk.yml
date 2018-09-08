@@ -1,0 +1,40 @@
+uuid: 00faf8a6-d051-412d-8393-891ce16cb5a8
+langcode: nb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:893d5020-8a3b-40dc-83a7-eb1d988b2307'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - mvbk_nm_bootstrap
+id: informasjonomnettbutikk
+theme: mvbk_nm_bootstrap
+region: content
+weight: -11
+provider: null
+plugin: 'block_content:893d5020-8a3b-40dc-83a7-eb1d988b2307'
+settings:
+  id: 'block_content:893d5020-8a3b-40dc-83a7-eb1d988b2307'
+  label: 'Informasjon om nettbutikk'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/nettbutikk\r\n/nettbutikk/produkt/*"
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+      lagleder: lagleder
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

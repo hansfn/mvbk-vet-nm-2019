@@ -1,0 +1,17 @@
+uuid: ff73a350-29ac-43ea-8ac6-07817dc47a99
+langcode: nb
+status: true
+dependencies: {  }
+id: lagleder
+label: Lagleder
+weight: 3
+is_admin: null
+permissions:
+  - 'view own commerce_order'
+  - 'create person content'
+  - 'delete own person content'
+  - 'edit own person content'
+  - 'edit terms in team'
+  - 'access cart'
+  - 'access checkout'
+  - 'manage own commerce_payment_method'

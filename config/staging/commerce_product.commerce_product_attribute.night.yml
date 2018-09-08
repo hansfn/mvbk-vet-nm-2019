@@ -1,0 +1,7 @@
+uuid: 99394ed0-3140-40bf-8a87-74377b6105f6
+langcode: nb
+status: true
+dependencies: {  }
+id: night
+label: Natt
+elementType: select

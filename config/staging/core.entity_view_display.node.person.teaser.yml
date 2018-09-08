@@ -1,0 +1,20 @@
+uuid: cd76d453-73f4-4cc3-8e29-08b71546c21a
+langcode: nb
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.person.field_team
+    - node.type.person
+  module:
+    - user
+id: node.person.teaser
+targetEntityType: node
+bundle: person
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_team: true
+  langcode: true

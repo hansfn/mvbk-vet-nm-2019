@@ -1,0 +1,22 @@
+uuid: 028227a6-136c-46ce-9b88-0b4fa4646a3d
+langcode: nb
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - mvbk_nm_bootstrap
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: mvbk_nm_bootstrap_help
+theme: mvbk_nm_bootstrap
+region: help
+weight: -7
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

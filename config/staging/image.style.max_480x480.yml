@@ -1,0 +1,23 @@
+uuid: 18d537dc-694c-4b0c-ac1b-24bfdae217b3
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: J2n0RpFzS0-bgSyxjs6rSdgxB1rb-bTAgqywNx_964M
+name: max_480x480
+label: 'Max 480×480'
+effects:
+  ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d:
+    uuid: ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d
+    id: image_scale
+    weight: -9
+    data:
+      width: 480
+      height: 480
+      upscale: false
+  3e73097c-9866-47fd-ab31-69b28bb07d8b:
+    uuid: 3e73097c-9866-47fd-ab31-69b28bb07d8b
+    id: image_auto_orientate
+    weight: -10
+    data:
+      scan_exif: 1

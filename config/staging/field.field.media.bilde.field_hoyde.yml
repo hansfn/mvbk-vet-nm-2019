@@ -1,0 +1,19 @@
+uuid: 0f8442c5-3ca0-4a56-bd72-b03ac977dfcf
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_hoyde
+    - media_entity.bundle.bilde
+id: media.bilde.field_hoyde
+field_name: field_hoyde
+entity_type: media
+bundle: bilde
+label: Høyde
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

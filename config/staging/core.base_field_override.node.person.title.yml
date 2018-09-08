@@ -1,0 +1,18 @@
+uuid: 651efead-3130-41a0-ae9d-02b94315bc87
+langcode: nb
+status: true
+dependencies:
+  config:
+    - node.type.person
+id: node.person.title
+field_name: title
+entity_type: node
+bundle: person
+label: Navn
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

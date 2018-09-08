@@ -1,0 +1,37 @@
+uuid: fca3e5df-45c6-4148-8acd-a6dacf27becd
+langcode: nb
+status: true
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+    - user
+  theme:
+    - mvbk_nm_bootstrap
+id: verktoy
+theme: mvbk_nm_bootstrap
+region: sidebar_second
+weight: -7
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Verktøy
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility:
+  user_role:
+    id: user_role
+    roles:
+      administrator: administrator
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+  request_path:
+    id: request_path
+    pages: "/lag/*\r\n/kamper/*\r\n/nettbutikk/*"
+    negate: true
+    context_mapping: {  }

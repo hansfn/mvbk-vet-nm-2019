@@ -1,0 +1,38 @@
+uuid: a590c79f-38fc-4329-9bef-9cdc6671af86
+langcode: nb
+status: true
+dependencies:
+  module:
+    - commerce_payment
+_core:
+  default_config_hash: pfR1VLABSnF4U0h1nL8OOZq7yFfckBmPxVOEwlY91y8
+id: default
+label: Default
+plugin: multistep_default
+configuration:
+  display_checkout_progress: true
+  order_summary_view: commerce_checkout_order_summary
+  panes:
+    login:
+      allow_guest_checkout: false
+      allow_registration: false
+      step: login
+      weight: 0
+    review:
+      step: review
+      weight: 1
+    payment_process:
+      capture: true
+      step: payment
+      weight: 2
+    completion_message:
+      message: "<p>Ditt ordrenummer er %order_number. Du kan se dine ordre på kontosiden din.</p>\n\n<p>NB! Husk å betale for ordren samme dag til vår bankkonto 3910.39.30255. Merk betalingen med klubbnavn og ordrenummer. Takk!</p> "
+      step: complete
+      weight: 3
+    payment_information:
+      step: _disabled
+      weight: 4
+    contact_information:
+      double_entry: false
+      step: _disabled
+      weight: 5

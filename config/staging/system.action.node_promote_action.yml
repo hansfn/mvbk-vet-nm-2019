@@ -1,0 +1,13 @@
+uuid: 54f7e004-9e66-4a60-8cec-bcef43ee293c
+langcode: nb
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: N0RDBTqiK4dKoN4p4oW2j0SGWycdHyALUe9M-Ofp89U
+id: node_promote_action
+label: 'Forfrem til forsiden'
+type: node
+plugin: node_promote_action
+configuration: {  }

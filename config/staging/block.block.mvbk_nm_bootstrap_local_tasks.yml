@@ -1,0 +1,22 @@
+uuid: d75b4de9-98aa-45fd-b7f6-5079d2bc8f42
+langcode: nb
+status: true
+dependencies:
+  theme:
+    - mvbk_nm_bootstrap
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: mvbk_nm_bootstrap_local_tasks
+theme: mvbk_nm_bootstrap
+region: header
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

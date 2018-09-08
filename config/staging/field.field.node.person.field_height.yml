@@ -1,0 +1,23 @@
+uuid: 009feb0f-cd90-43c1-a156-5c35811d422f
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_height
+    - node.type.person
+id: node.person.field_height
+field_name: field_height
+entity_type: node
+bundle: person
+label: Høyde
+description: 'Spillerens høyde'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 150
+  max: 220
+  prefix: ''
+  suffix: ' cm'
+field_type: integer

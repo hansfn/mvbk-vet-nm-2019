@@ -1,0 +1,13 @@
+uuid: df264e53-9b01-4845-8f5e-83d0192c0c55
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: KuyA4NHPXcmKAjRtwa0vQc2ZcyrUJy6IlS2TAyMNRbc
+name: 'Grunnleggende side'
+type: page
+description: 'Bruk <em>grunnleggende sider</em> for statisk innhold som «Om oss».'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,12 @@
+uuid: 507f660b-062b-4ffe-892b-289dd2b1977b
+langcode: nb
+status: true
+dependencies:
+  module:
+    - taxonomy
+_core:
+  default_config_hash: '-PPKjsNQPvoIDjOuUAvlLocYD976MNjb9Zpgyz5_BWE'
+id: taxonomy_term.full
+label: 'Side for taksonomiord'
+targetEntityType: taxonomy_term
+cache: true

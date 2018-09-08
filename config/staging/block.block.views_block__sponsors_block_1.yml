@@ -1,0 +1,30 @@
+uuid: 9254b5f5-0bbf-42dd-8401-6406f92834f5
+langcode: nb
+status: true
+dependencies:
+  config:
+    - views.view.sponsors
+  module:
+    - system
+    - views
+  theme:
+    - mvbk_nm_bootstrap
+id: views_block__sponsors_block_1
+theme: mvbk_nm_bootstrap
+region: footer
+weight: 0
+provider: null
+plugin: 'views_block:sponsors-block_1'
+settings:
+  id: 'views_block:sponsors-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /om/sponsorer
+    negate: true
+    context_mapping: {  }

@@ -1,0 +1,20 @@
+uuid: 85ac25b3-bfd4-4148-8c1d-b0011f7dafa2
+langcode: nb
+status: true
+dependencies:
+  module:
+    - commerce_cop
+id: bank_account
+label: 'Til bankkonto 3910.39.30255'
+weight: null
+plugin: offline
+configuration:
+  description: 'Overfør penger via din bankkonto.'
+  information:
+    value: 'Betal til vår bankkonto 3910.39.30255 innen 7 dager. Merk betalingen med klubbnavn og ordrenummer.'
+    format: plain_text
+  checkout: true
+  terminal: true
+  mode: live
+  payment_method_types:
+    - offline

@@ -1,0 +1,15 @@
+uuid: cec8dd28-bb68-4046-8c6f-fc52442f442a
+langcode: nb
+status: true
+dependencies:
+  enforced:
+    module:
+      - commerce_order
+_core:
+  default_config_hash: PZl4AQDUouSVwavb0FNRlcbJx924n5FtCq8l73AMj5g
+id: customer
+label: Kunde
+registration: false
+multiple: true
+roles: {  }
+weight: 0

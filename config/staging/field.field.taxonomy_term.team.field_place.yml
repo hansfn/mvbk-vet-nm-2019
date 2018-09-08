@@ -1,0 +1,19 @@
+uuid: e8692715-21e5-4ea2-bbfb-2f5eb61a19d8
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_place
+    - taxonomy.vocabulary.team
+id: taxonomy_term.team.field_place
+field_name: field_place
+entity_type: taxonomy_term
+bundle: team
+label: Sted
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

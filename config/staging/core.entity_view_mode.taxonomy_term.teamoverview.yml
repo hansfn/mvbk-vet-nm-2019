@@ -1,0 +1,10 @@
+uuid: 5967becd-4879-4059-b899-4c5de42195f1
+langcode: nb
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.teamoverview
+label: Lagoversikt
+targetEntityType: taxonomy_term
+cache: true

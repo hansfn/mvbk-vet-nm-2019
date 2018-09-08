@@ -1,0 +1,8 @@
+uuid: b3f845a6-db51-44ba-a091-d511326ca0a8
+langcode: nb
+status: true
+dependencies: {  }
+id: utvalgt-informasjon
+label: 'Utvalgt informasjon'
+description: ''
+locked: false

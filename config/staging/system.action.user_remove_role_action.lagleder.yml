@@ -1,0 +1,14 @@
+uuid: 37240ce0-0984-46e8-bf0d-fa000072bb14
+langcode: nb
+status: true
+dependencies:
+  config:
+    - user.role.lagleder
+  module:
+    - user
+id: user_remove_role_action.lagleder
+label: 'Fjerne rollen Lagleder fra de valgte brukerne'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: lagleder

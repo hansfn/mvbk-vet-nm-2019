@@ -1,0 +1,7 @@
+uuid: 91f8fcf6-689b-4af3-bf93-b87a53fa8c85
+langcode: nb
+status: true
+dependencies: {  }
+id: day
+label: Dag
+elementType: select

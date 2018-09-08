@@ -1,0 +1,10 @@
+uuid: 873b100b-500a-4952-8d24-a4bc3f2d2d9e
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: BCM-vV1zzRaLHN18dqAR_CuGOj8AFJvTx7BKl_8Gcxc
+id: tools
+label: Tools
+description: 'Verktøylenker for administrator, ofte lagt til av moduler'
+locked: true

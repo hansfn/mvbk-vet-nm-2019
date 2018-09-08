@@ -1,0 +1,21 @@
+uuid: 6d441e2e-5990-476c-92c2-56631d92fe06
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_class
+    - taxonomy.vocabulary.team
+  module:
+    - options
+id: taxonomy_term.team.field_class
+field_name: field_class
+entity_type: taxonomy_term
+bundle: team
+label: Klasse
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

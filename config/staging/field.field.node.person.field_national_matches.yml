@@ -1,0 +1,25 @@
+uuid: 3d366ee4-72ed-4fc3-8506-826f492b57f6
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_national_matches
+    - node.type.person
+id: node.person.field_national_matches
+field_name: field_national_matches
+entity_type: node
+bundle: person
+label: Landskamper
+description: 'Antall landskamper.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

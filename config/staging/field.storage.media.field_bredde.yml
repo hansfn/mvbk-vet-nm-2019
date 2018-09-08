@@ -1,0 +1,21 @@
+uuid: 3d0c9d6f-b7d9-4ea5-9d67-b7f1a84cda0e
+langcode: nb
+status: true
+dependencies:
+  module:
+    - media_entity
+id: media.field_bredde
+field_name: field_bredde
+entity_type: media
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

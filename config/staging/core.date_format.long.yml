@@ -1,0 +1,10 @@
+uuid: 5d9909c2-dc26-43c6-85b3-20700e961c07
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: og8sWXhBuHbLMw3CoiBEZjgqSyhFBFmcbUW_wLcfNbo
+id: long
+label: 'Standard lang dato'
+locked: false
+pattern: 'l j. F, Y - H:i'

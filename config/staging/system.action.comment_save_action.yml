@@ -1,0 +1,13 @@
+uuid: 094a2bf4-d5e7-4165-a42a-0d7bf8792e53
+langcode: nb
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: TSkg_gUZvk-39yXFrIFnKjsxuEzO0qBH82TdDxOMMr4
+id: comment_save_action
+label: 'Lagre kommentar'
+type: comment
+plugin: comment_save_action
+configuration: {  }

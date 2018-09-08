@@ -1,0 +1,10 @@
+uuid: f14f0d7a-6f1d-4693-9e72-4c2cfea22307
+langcode: nb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: bqZsN31T2n0UjcbyCpOPi9D2iO0sAOHR7FnEs9qMvaA
+id: comment
+label: 'Standard kommentarer'
+target_entity_type_id: node
+description: 'Tillater kommentering av innhold'

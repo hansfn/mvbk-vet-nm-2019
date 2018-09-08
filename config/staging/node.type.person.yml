@@ -1,0 +1,17 @@
+uuid: 31da17bd-6988-4d65-8ff6-10799a57b089
+langcode: nb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Person
+type: person
+description: 'En spiller på et lag eller støttepersonell som trener og lagleder. '
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

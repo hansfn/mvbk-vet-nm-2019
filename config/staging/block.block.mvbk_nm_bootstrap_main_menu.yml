@@ -1,0 +1,26 @@
+uuid: ac6a6cfd-551b-46f0-9231-9b8a1cf69d5a
+langcode: nb
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - mvbk_nm_bootstrap
+_core:
+  default_config_hash: GT_zYl7I9VAILH8OxMRe-VDvFadCDHxRcnmBc5xEmf0
+id: mvbk_nm_bootstrap_main_menu
+theme: mvbk_nm_bootstrap
+region: navigation_collapsible
+weight: -7
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 2
+visibility: {  }

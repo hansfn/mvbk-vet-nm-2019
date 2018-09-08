@@ -1,0 +1,90 @@
+uuid: 7d61f7c4-1a3d-4244-b10d-4a3e6fe426b2
+langcode: nb
+status: true
+dependencies:
+  config:
+    - field.field.node.person.field_birthdate
+    - field.field.node.person.field_height
+    - field.field.node.person.field_image
+    - field.field.node.person.field_jersey_number
+    - field.field.node.person.field_national_matches
+    - field.field.node.person.field_position
+    - field.field.node.person.field_reach
+    - field.field.node.person.field_team
+    - image.style.thumbnail
+    - node.type.person
+  module:
+    - datetime
+    - image
+id: node.person.default
+targetEntityType: node
+bundle: person
+mode: default
+content:
+  field_birthdate:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+  field_height:
+    weight: 3
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_image:
+    weight: 8
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+  field_jersey_number:
+    weight: 6
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_national_matches:
+    weight: 7
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_position:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  field_reach:
+    weight: 4
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+  field_team:
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+  title:
+    type: string_textfield
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 9
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  sticky: true

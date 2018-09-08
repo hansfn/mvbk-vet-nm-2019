@@ -1,0 +1,20 @@
+uuid: 47ce8907-1366-420b-9f28-d5070e59e240
+langcode: nb
+status: true
+dependencies:
+  theme:
+    - mvbk_nm_bootstrap
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: mvbk_nm_bootstrap_page_title
+theme: mvbk_nm_bootstrap
+region: header
+weight: 0
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

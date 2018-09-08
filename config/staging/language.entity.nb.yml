@@ -1,0 +1,9 @@
+uuid: 15a597f4-de43-42e8-8c02-8a620d305f14
+langcode: nb
+status: true
+dependencies: {  }
+id: nb
+label: 'Norwegian Bokmål'
+direction: ltr
+weight: 0
+locked: false
