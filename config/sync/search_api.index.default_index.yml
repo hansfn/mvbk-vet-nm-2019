@@ -121,9 +121,6 @@ datasource_settings:
       selected:
         - nb
 processor_settings:
-  node_status:
-    weights:
-      preprocess_index: -10
   ignorecase:
     fields:
       - title
@@ -218,6 +215,9 @@ processor_settings:
     weights:
       preprocess_index: -6
       preprocess_query: -4
+  entity_status:
+    weights:
+      preprocess_index: -10
 tracker_settings:
   default: {  }
 options:

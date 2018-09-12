@@ -21,11 +21,14 @@ content:
     type: address_default
     weight: 0
     settings:
-      default_country: site_default
+      default_country: null
     third_party_settings: {  }
+    region: content
   langcode:
     type: language_select
     weight: 2
-    settings: {  }
+    settings:
+      include_locked: true
     third_party_settings: {  }
+    region: content
 hidden: {  }

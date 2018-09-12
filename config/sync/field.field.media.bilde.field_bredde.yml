@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.storage.media.field_bredde
-    - media_entity.bundle.bilde
+    - media.type.bilde
 id: media.bilde.field_bredde
 field_name: field_bredde
 entity_type: media

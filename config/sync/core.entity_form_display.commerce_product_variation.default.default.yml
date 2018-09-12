@@ -22,31 +22,38 @@ content:
     weight: 2
     settings: {  }
     third_party_settings: {  }
+    region: content
   attribute_lunch:
     type: options_select
     weight: 4
     settings: {  }
     third_party_settings: {  }
+    region: content
   attribute_night:
     type: options_select
     weight: 3
     settings: {  }
     third_party_settings: {  }
+    region: content
   attribute_size:
     type: options_select
     weight: 1
     settings: {  }
     third_party_settings: {  }
+    region: content
   langcode:
     type: language_select
     weight: 2
-    settings: {  }
+    settings:
+      include_locked: true
     third_party_settings: {  }
+    region: content
   price:
     type: commerce_price_default
     weight: 0
     settings: {  }
     third_party_settings: {  }
+    region: content
   sku:
     type: string_textfield
     weight: -4
@@ -54,12 +61,14 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+    region: content
   status:
     type: boolean_checkbox
     weight: 10
     settings:
       display_label: true
     third_party_settings: {  }
+    region: content
 hidden:
   created: true
   uid: true

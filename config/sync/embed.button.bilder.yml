@@ -3,12 +3,12 @@ langcode: nb
 status: true
 dependencies:
   config:
-    - media_entity.bundle.bilde
+    - media.type.bilde
   content:
     - 'file:file:5fd98b79-85bc-404f-8ec4-a1a8d5229c55'
   module:
     - entity_embed
-    - media_entity
+    - media
 label: Bilder
 id: bilder
 type_id: entity

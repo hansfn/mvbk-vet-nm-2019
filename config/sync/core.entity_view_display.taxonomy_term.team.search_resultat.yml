@@ -52,7 +52,10 @@ hidden:
   description: true
   field_class: true
   field_club: true
+  field_group: true
   field_homepage: true
   field_image: true
   field_place: true
+  field_results: true
+  field_seed: true
   langcode: true

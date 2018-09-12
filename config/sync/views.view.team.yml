@@ -812,7 +812,7 @@ display:
           plugin_id: taxonomy_index_tid
       display_extenders: {  }
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -1184,7 +1184,7 @@ display:
             format: full_html
           plugin_id: text
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -1318,7 +1318,7 @@ display:
             format: full_html
           plugin_id: text
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'

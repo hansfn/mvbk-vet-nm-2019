@@ -3,7 +3,7 @@ langcode: nb
 status: true
 dependencies:
   module:
-    - media_entity
+    - media
 id: media.bare_bilde
 label: 'Bare bilde'
 targetEntityType: media

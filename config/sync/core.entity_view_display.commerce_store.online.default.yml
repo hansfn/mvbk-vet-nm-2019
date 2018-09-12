@@ -19,6 +19,7 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden:
   billing_countries: true
   default_currency: true

@@ -3,11 +3,11 @@ langcode: nb
 status: true
 dependencies:
   config:
-    - media_entity.bundle.bilde
+    - media.type.bilde
     - views.view.media_list
   module:
     - dropzonejs_eb_widget
-    - media_entity
+    - media
     - views
 name: media_browser
 label: 'Media browser'
@@ -26,12 +26,19 @@ widget_selector_configuration: {  }
 widgets:
   50844ad0-4df9-4e77-9f72-f1b648c728c8:
     settings:
-      media_entity_bundle: bilde
+      media_type: bilde
       upload_location: 'public://[date:custom:Y]-[date:custom:m]'
       dropzone_description: 'Drop files here to upload them'
       max_filesize: 2M
       extensions: 'jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp'
+      clientside_resize: false
+      resize_width: 0
+      resize_height: 0
+      resize_quality: !!float 1
+      resize_method: contain
+      thumbnail_method: contain
       submit_text: 'Velg bilder'
+      auto_select: false
     uuid: 50844ad0-4df9-4e77-9f72-f1b648c728c8
     weight: 1
     label: Mediaopplasting

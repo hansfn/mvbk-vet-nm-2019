@@ -1,14 +1,11 @@
 uuid: c3209bd7-8a7f-4fa3-b972-ca369e7f7b9f
-langcode: nb
+langcode: en
 status: true
 dependencies:
   module:
     - commerce
     - commerce_store
-    - system
     - user
-_core:
-  default_config_hash: oHsklE_XUCqbT57_8chfj2OrDcR4ikKQ1go5WEz3PK0
 id: commerce_stores
 label: Stores
 module: views
@@ -160,7 +157,7 @@ display:
           hide_empty: false
           empty_zero: false
           hide_alter_empty: true
-          action_title: 'Med utvalg'
+          action_title: 'With selection'
           include_exclude: exclude
           selected_actions: {  }
           entity_type: commerce_store
@@ -426,7 +423,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: admin/commerce/stores
+      path: admin/commerce/config/stores
     cache_metadata:
       contexts:
         - 'languages:language_content'

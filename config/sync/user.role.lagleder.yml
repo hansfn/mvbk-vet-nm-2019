@@ -7,11 +7,11 @@ label: Lagleder
 weight: 3
 is_admin: null
 permissions:
-  - 'view own commerce_order'
+  - 'access cart'
+  - 'access checkout'
   - 'create person content'
   - 'delete own person content'
   - 'edit own person content'
   - 'edit terms in team'
-  - 'access cart'
-  - 'access checkout'
   - 'manage own commerce_payment_method'
+  - 'view own commerce_order'

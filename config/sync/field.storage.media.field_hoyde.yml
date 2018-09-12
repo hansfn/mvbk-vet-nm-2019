@@ -3,7 +3,7 @@ langcode: nb
 status: true
 dependencies:
   module:
-    - media_entity
+    - media
 id: media.field_hoyde
 field_name: field_hoyde
 entity_type: media

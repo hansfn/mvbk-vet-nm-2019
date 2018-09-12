@@ -21,7 +21,11 @@ content:
     weight: 100
     settings: {  }
     third_party_settings: {  }
+    region: content
   links:
     weight: 101
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   langcode: true

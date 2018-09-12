@@ -20,6 +20,7 @@ content:
     weight: 0
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_phone:
     weight: 1
     settings:
@@ -27,11 +28,13 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
   field_team:
     weight: 2
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
 hidden:
   commerce_remote_id: true
   contact: true

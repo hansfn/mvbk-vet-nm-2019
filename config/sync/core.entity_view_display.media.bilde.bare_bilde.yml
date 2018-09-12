@@ -7,7 +7,7 @@ dependencies:
     - field.field.media.bilde.field_bilde
     - field.field.media.bilde.field_bredde
     - field.field.media.bilde.field_hoyde
-    - media_entity.bundle.bilde
+    - media.type.bilde
     - responsive_image.styles.wide
   module:
     - responsive_image
@@ -24,6 +24,7 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: responsive_image
+    region: content
 hidden:
   created: true
   field_bredde: true

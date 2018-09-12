@@ -79,24 +79,28 @@ content:
     weight: 3
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_class:
     type: list_key
     weight: 0
     label: above
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_club:
     type: list_key
     weight: 0
     label: above
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_group:
     type: list_key
     weight: 0
     label: above
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_homepage:
     weight: 2
     label: inline
@@ -108,6 +112,7 @@ content:
       target: ''
     third_party_settings: {  }
     type: link
+    region: content
   field_image:
     weight: 0
     label: hidden
@@ -116,6 +121,7 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
   field_place:
     weight: 1
     label: inline
@@ -123,6 +129,7 @@ content:
       link_to_entity: false
     third_party_settings: {  }
     type: string
+    region: content
   field_results:
     type: link
     weight: 4
@@ -134,6 +141,7 @@ content:
       rel: '0'
       target: '0'
     third_party_settings: {  }
+    region: content
   field_seed:
     type: number_integer
     weight: 0
@@ -142,6 +150,7 @@ content:
       thousand_separator: ''
       prefix_suffix: true
     third_party_settings: {  }
+    region: content
   langcode:
     type: language
     weight: 0
@@ -150,4 +159,5 @@ content:
       link_to_entity: false
       native_language: false
     third_party_settings: {  }
+    region: content
 hidden: {  }

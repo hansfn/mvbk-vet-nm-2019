@@ -4,6 +4,13 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
+    - field.field.node.person.field_birthdate
+    - field.field.node.person.field_height
+    - field.field.node.person.field_image
+    - field.field.node.person.field_jersey_number
+    - field.field.node.person.field_national_matches
+    - field.field.node.person.field_position
+    - field.field.node.person.field_reach
     - field.field.node.person.field_team
     - node.type.person
   module:
@@ -15,6 +22,16 @@ mode: teaser
 content:
   links:
     weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
+  field_birthdate: true
+  field_height: true
+  field_image: true
+  field_jersey_number: true
+  field_national_matches: true
+  field_position: true
+  field_reach: true
   field_team: true
   langcode: true

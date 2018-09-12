@@ -30,21 +30,25 @@ content:
       rows: 5
       placeholder: 'Lagets tidligere resultater (beste plasseringer i NM ev. andre resultater) '
     third_party_settings: {  }
+    region: content
   field_class:
     weight: 2
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
   field_club:
     weight: 1
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
   field_group:
     weight: 4
     settings: {  }
     third_party_settings: {  }
     type: options_select
+    region: content
   field_homepage:
     weight: 7
     settings:
@@ -52,6 +56,7 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
   field_image:
     weight: 8
     settings:
@@ -59,6 +64,7 @@ content:
       progress_indicator: throbber
     third_party_settings: {  }
     type: image_image
+    region: content
   field_place:
     weight: 6
     settings:
@@ -66,6 +72,7 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
+    region: content
   field_results:
     weight: 5
     settings:
@@ -73,17 +80,21 @@ content:
       placeholder_title: ''
     third_party_settings: {  }
     type: link_default
+    region: content
   field_seed:
     weight: 3
     settings:
       placeholder: ''
     third_party_settings: {  }
     type: number
+    region: content
   langcode:
     type: language_select
     weight: 10
-    settings: {  }
+    settings:
+      include_locked: true
     third_party_settings: {  }
+    region: content
   name:
     type: string_textfield
     weight: 0
@@ -91,9 +102,11 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+    region: content
   path:
     type: path
     weight: 11
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden: {  }

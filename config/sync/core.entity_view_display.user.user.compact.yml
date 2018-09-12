@@ -5,6 +5,8 @@ dependencies:
   config:
     - core.entity_view_mode.user.compact
     - field.field.user.user.commerce_remote_id
+    - field.field.user.user.field_phone
+    - field.field.user.user.field_team
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
@@ -17,6 +19,11 @@ targetEntityType: user
 bundle: user
 mode: compact
 content:
+  masquerade:
+    weight: 50
+    region: content
+    settings: {  }
+    third_party_settings: {  }
   user_picture:
     type: image
     weight: 0
@@ -25,8 +32,11 @@ content:
       image_link: content
     third_party_settings: {  }
     label: hidden
+    region: content
 hidden:
   commerce_remote_id: true
+  field_phone: true
+  field_team: true
   langcode: true
   member_for: true
   profile_customer: true

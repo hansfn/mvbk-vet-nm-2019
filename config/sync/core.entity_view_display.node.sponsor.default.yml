@@ -10,7 +10,7 @@ dependencies:
     - node.type.sponsor
   module:
     - link
-    - media_entity
+    - media
     - text
     - user
 id: node.sponsor.default
@@ -24,6 +24,7 @@ content:
     weight: 2
     settings: {  }
     third_party_settings: {  }
+    region: content
   field_homepage:
     weight: 0
     label: inline
@@ -35,6 +36,7 @@ content:
       target: ''
     third_party_settings: {  }
     type: link
+    region: content
   field_logo:
     weight: 1
     label: hidden
@@ -43,6 +45,7 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: media_thumbnail
+    region: content
 hidden:
   langcode: true
   links: true

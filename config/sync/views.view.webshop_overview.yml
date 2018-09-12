@@ -276,6 +276,7 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
+            placeholder: ''
           is_grouped: false
           group_info:
             label: ''
@@ -388,7 +389,7 @@ display:
       arguments: {  }
       display_extenders: {  }
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -407,7 +408,7 @@ display:
       defaults:
         title: false
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -446,6 +447,7 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
+            placeholder: ''
           is_grouped: false
           group_info:
             label: ''
@@ -471,7 +473,7 @@ display:
           1: AND
       title: 'Oversikt for middag'
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
@@ -510,6 +512,7 @@ display:
             multiple: false
             remember_roles:
               authenticated: authenticated
+            placeholder: ''
           is_grouped: false
           group_info:
             label: ''
@@ -535,7 +538,7 @@ display:
           1: AND
       title: 'Oversikt for t-skjorte'
     cache_metadata:
-      max-age: 0
+      max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'

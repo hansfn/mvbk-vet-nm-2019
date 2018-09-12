@@ -10,7 +10,7 @@ dependencies:
     - node.type.sponsor
   module:
     - link
-    - media_entity
+    - media
     - node
     - user
 id: sponsors
