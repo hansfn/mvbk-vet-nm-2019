@@ -1,0 +1,65 @@
+/**
+ * Place your custom styles here.
+ */
+
+/**
+ * Millar fonts
+ */
+h1, h2, h3, h4, h5, h6,
+ul.navbar-nav {
+  font-family: Millar;
+}
+
+/* IE11 hack for logo image */
+div.navbar-header .img-responsive{
+  width: 50%;
+}
+
+div.field--name-description {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+div.sponsor {
+  display: inline-block;
+  padding: 10px;
+}
+
+article.embedded-entity {
+  padding: 10px;
+}
+
+.form-inline .form-control {
+  width: 100%;
+}
+
+a.navbar-brand {
+  display: none;
+}
+
+.navbar-toggle {
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  a.logo {
+    width: 90%;
+  }
+  .navbar-toggle {
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  a.logo {
+    width: 80%;
+  }
+  .navbar-toggle {
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+}
