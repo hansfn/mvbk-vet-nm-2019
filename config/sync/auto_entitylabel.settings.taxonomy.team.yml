@@ -1,0 +1,6 @@
+status: '1'
+pattern: '[term:field_club] - [term:field_class]'
+php: 0
+dependencies:
+  config:
+    - taxonomy.vocabulary.team
