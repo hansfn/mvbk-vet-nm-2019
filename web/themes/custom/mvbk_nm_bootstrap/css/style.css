@@ -12,7 +12,7 @@ ul.navbar-nav {
 
 /* IE11 hack for logo image */
 div.navbar-header .img-responsive{
-  width: 50%;
+  width: 100%;
 }
 
 div.field--name-description {
@@ -40,6 +40,13 @@ a.navbar-brand {
 .navbar-toggle {
   margin-top: 18px;
   margin-bottom: 18px;
+}
+
+/* Larger Devices. (Could handle 992px and 1200px too.) */
+@media only screen and (min-width : 768px) {
+  a.logo {
+    width: 50%;
+  }
 }
 
 /* Small Devices, Tablets */
