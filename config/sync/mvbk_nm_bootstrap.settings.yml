@@ -9,7 +9,7 @@ features:
   favicon: true
   node_user_picture: true
 logo:
-  path: themes/custom/mvbk_nm_bootstrap/logo-nm-u19-en-linje-r2.png
+  path: themes/custom/mvbk_nm_bootstrap/logo-vetnm-2019-tre-linjer.png
   url: ''
   use_default: false
 schemas:
