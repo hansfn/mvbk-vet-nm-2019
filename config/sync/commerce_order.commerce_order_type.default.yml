@@ -4,7 +4,7 @@ status: true
 dependencies: {  }
 _core:
   default_config_hash: zf7YA-OOtWhhrphbf3YOlc49POwC9rePktH9cBavEiA
-label: Default
+label: Standard
 id: default
 workflow: order_default
 traits: {  }

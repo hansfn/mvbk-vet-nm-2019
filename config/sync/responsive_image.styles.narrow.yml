@@ -10,7 +10,7 @@ dependencies:
 _core:
   default_config_hash: xAduWBNBoi9WKBMCoVIKSueNYqPK84SiiZwQYKPbkaE
 id: narrow
-label: Narrow
+label: Smal
 image_style_mappings:
   -
     breakpoint_id: bootstrap.screen-xs-max

@@ -47,5 +47,5 @@ tips:
     id: language-edit-continue
     plugin: text
     label: 'Fortsetter på'
-    body: '<p>Now that you have an overview of the "Edit language" feature, you can continue by:<ul><li>Editing a language</li><li><a href="[site:url]admin/config/regional/language">Viewing configured languages</a></li></ul></p>'
+    body: "<p>Nå\_som du har oversikt over funksjonen «Legg til språk», kan du fortsette med å:<ul><li>Redigere et språk</li><li><a href=\"[site:url]admin/config/regional/language\">Vise språkene som er konfigurert</a></li></ul></p>"
     weight: 5

@@ -24,7 +24,7 @@ display:
   default:
     display_plugin: default
     id: default
-    display_title: Master
+    display_title: Hoved
     position: 0
     display_options:
       access:
@@ -45,13 +45,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Bruk
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Nullstill
+          exposed_sorts_label: 'Sortér etter'
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Stigende
+          sort_desc_label: Synkende
       pager:
         type: full
         options:
@@ -60,18 +60,18 @@ display:
           id: 0
           total_pages: null
           tags:
-            previous: '‹ previous'
-            next: 'next ›'
-            first: '« first'
-            last: 'last »'
+            previous: '‹ forrige'
+            next: 'neste ›'
+            first: '« første'
+            last: 'siste »'
           expose:
             items_per_page: false
-            items_per_page_label: 'Items per page'
+            items_per_page_label: 'Elementer per side'
             items_per_page_options: '5, 10, 25, 50'
             items_per_page_options_all: false
-            items_per_page_options_all_label: '- All -'
+            items_per_page_options_all_label: '- Alle -'
             offset: false
-            offset_label: Offset
+            offset_label: Forskyving
           quantity: 9
       style:
         type: default
@@ -379,7 +379,7 @@ display:
           exposed: true
           expose:
             operator_id: filename_op
-            label: Filename
+            label: Filnavn
             description: ''
             use_operator: false
             operator: filename_op
@@ -464,7 +464,7 @@ display:
           exposed: true
           expose:
             operator_id: filemime_op
-            label: 'File MIME type'
+            label: 'Filens MIME-type'
             description: ''
             use_operator: false
             operator: filemime_op
@@ -543,7 +543,7 @@ display:
           order: DESC
           exposed: true
           expose:
-            label: 'Created date'
+            label: 'Dato opprettet'
           granularity: second
           entity_type: file
           entity_field: created
@@ -558,7 +558,7 @@ display:
           order: ASC
           exposed: true
           expose:
-            label: 'File size'
+            label: Filstørrelse
           entity_type: file
           entity_field: filesize
           plugin_id: standard
@@ -572,7 +572,7 @@ display:
           order: ASC
           exposed: true
           expose:
-            label: Filename
+            label: Filnavn
           entity_type: file
           entity_field: filename
           plugin_id: standard

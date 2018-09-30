@@ -7,7 +7,7 @@ dependencies:
 _core:
   default_config_hash: K3KVksdkREnIdd2idoIA9TDHQew_WreFzTG-DHmz9Z4
 id: language
-label: Language
+label: Språk
 module: language
 routes:
   -
@@ -55,5 +55,5 @@ tips:
     id: language-continue
     plugin: text
     label: 'Fortsetter på'
-    body: '<p>Now that you have an overview of the "Languages" page, you can continue by:<ul><li><a href="[site:url]admin/config/regional/language/add">Adding a language</a></li><li>Reordering languages</li><li>Editing a language</li><li>Deleting a language</li></ul></p>'
+    body: '<p> Nå som du har oversikt over sida «Språk», kan du fortsette med å:<ul><li><a href="[site:url]admin/config/regional/language/add">Legge til et språk</a></li><li>Endre prioritert rekkefølge for språkene</li><li>Redigere et språk</li><li>Slette et språk</li></ul></p>'
     weight: 6

@@ -12,7 +12,7 @@ dependencies:
 _core:
   default_config_hash: waBU_eXNHzwqmAXPugM2-ZD5Cuvzw_OGwPfSITxymOE
 id: wide
-label: Wide
+label: Bred
 image_style_mappings:
   -
     breakpoint_id: bootstrap.screen-xs-max

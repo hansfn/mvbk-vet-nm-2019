@@ -22,7 +22,7 @@ core: '8'
 display:
   default:
     id: default
-    display_title: Master
+    display_title: Hoved
     display_plugin: default
     position: 0
     display_options:
@@ -44,13 +44,13 @@ display:
       exposed_form:
         type: basic
         options:
-          submit_button: Apply
+          submit_button: Bruk
           reset_button: false
-          reset_button_label: Reset
-          exposed_sorts_label: 'Sort by'
+          reset_button_label: Nullstill
+          exposed_sorts_label: 'Sortér etter'
           expose_sort_order: true
-          sort_asc_label: Asc
-          sort_desc_label: Desc
+          sort_asc_label: Stigende
+          sort_desc_label: Synkende
       pager:
         type: none
         options:
@@ -82,7 +82,7 @@ display:
           exception:
             value: ''
             title_enable: false
-            title: All
+            title: Alle
           title_enable: true
           title: '{{ arguments.tid }}'
           default_argument_type: fixed
@@ -381,7 +381,7 @@ display:
         - 'config:field.storage.node.field_position'
   page_1:
     id: page_1
-    display_title: Page
+    display_title: Side
     display_plugin: page
     position: 1
     display_options:
