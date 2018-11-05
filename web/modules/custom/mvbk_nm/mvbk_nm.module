@@ -1,0 +1,74 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_alter().
+ */
+function mvbk_nm_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if (($form_id == 'node_lag_form') || ($form_id == 'node_lag_edit_form')) {
+    $roles = \Drupal::currentUser()->getRoles();
+    if (!in_array("administrator", $roles)){
+      $form['field_seed']['#access'] = FALSE;
+      $form['field_group']['#access'] = FALSE;
+      $form['field_results']['#access'] = FALSE;
+      $form['revision_information']['#access'] = FALSE;
+    }
+  }
+  elseif (($form_id == 'node_person_form') || ($form_id == 'node_person_edit_form')) {
+    $roles = \Drupal::currentUser()->getRoles();
+    if (!in_array("administrator", $roles)){
+      $form['revision_information']['#access'] = FALSE;
+    }
+  }
+  elseif ($form_id == 'user_login_form') {
+    $form['name']['#title'] = 'Brukernavn (ditt fulle navn)';
+  }
+  elseif ($form_id == 'user_register_form') {
+    $form['account']['name']['#title'] = 'Ditt fulle navn (som brukernavn)';
+    $form['account']['name']['#description'] = 'Ditt fulle navn - "Fornavn Etternavn". Norske tegn går helt fint.'; 
+    if (\Drupal::currentUser()->id() != 1) {
+      $form['field_team']['widget']['#required'] = TRUE;
+    }
+  }
+  elseif ($form_id == 'user_form') {
+    $roles = \Drupal::currentUser()->getRoles();
+    if (!in_array("administrator", $roles)){
+      $form['field_team']['#disabled'] = TRUE;
+    }
+  }
+  elseif ($form_id == 'views_exposed_form') {
+    if (isset($form['sok'])) {
+      $form['sok']['#size'] = 20;
+    }
+  }
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function mvbk_nm_form_user_login_form_alter(&$form, FormStateInterface $form_state) {
+  $form['#submit'][] = 'mvbk_nm_user_login_submit';
+}
+
+/**
+ * Form submission handler for user_login_form().
+ *
+ * Redirects the user to the front page after logging in.
+ *
+ * See https://drupal.stackexchange.com/questions/195170/redirect-after-user-login
+ */
+function mvbk_nm_user_login_submit(&$form, FormStateInterface $form_state) {
+  $url = \Drupal\Core\Url::fromRoute('<front>');
+
+  // Check if a destination was set, probably on an exception controller.
+  // @see \Drupal\user\Form\UserLoginForm::submitForm()
+  $request = \Drupal::service('request_stack')->getCurrentRequest();
+  if (!$request->request->has('destination')) {
+    $form_state->setRedirectUrl($url);
+  }
+  else {
+    $request->query->set('destination', $request->request->get('destination'));
+  }
+}
+

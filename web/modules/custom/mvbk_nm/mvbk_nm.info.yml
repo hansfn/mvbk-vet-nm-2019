@@ -1,0 +1,6 @@
+name: MVBK NM mods
+description: Minot form modification for the NM site
+package: Custom
+
+type: module
+core: 8.x
