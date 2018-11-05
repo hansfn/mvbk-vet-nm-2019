@@ -9,6 +9,8 @@ web/libraries/
 
 # Ignore Drupal's file directory
 web/sites/*/files
+web/filer
+filer_privat
 
 # Ignore SimpleTest multi-site environment.
 web/sites/simpletest
@@ -24,8 +26,10 @@ web/sites/simpletest
 web/.csslintrc
 web/.editorconfig
 web/.eslintignore
+web/.eslintrc.json
 web/.eslintrc
 web/.gitattributes
+web/.ht.router.php
 web/.htaccess
 web/autoload.php
 web/index.php
