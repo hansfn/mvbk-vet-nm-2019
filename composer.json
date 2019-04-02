@@ -27,6 +27,7 @@
         "drupal/bootstrap_layouts": "~5.0",
         "drupal/coffee": "^1.0",
         "drupal/commerce": "~2.0",
+        "drupal/commerce_stripe": "^1.0@RC",
         "drupal/console": "^1.8.0",
         "drupal/core": "^8.6",
         "drupal/ctools": "~3.0",
