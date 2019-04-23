@@ -29,10 +29,12 @@ div.view-nettbutikk table td {
   vertical-align: middle;
 }
 
-/* Hide allergy for Tex-Mex dinner */
+/* Hide allergy for Tex-Mex dinner - disabled for now */
+/*
 form.commerce-order-item-add-to-cart-form-commerce-product-4 div.form-item-field-allergies-0-value {
   display: none;
 }
+*/
 
 article.embedded-entity {
   padding: 10px;
