@@ -32,6 +32,7 @@
         "drupal/core": "^8.6",
         "drupal/ctools": "~3.0",
         "drupal/devel": "^2.0",
+        "drupal/diff": "^1.0@RC",
         "drupal/ds": "^3.0",
         "drupal/entity": "^1.0@beta",
         "drupal/file_browser": "~1.0",
