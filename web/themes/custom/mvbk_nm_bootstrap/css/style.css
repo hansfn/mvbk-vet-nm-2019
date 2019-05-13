@@ -29,9 +29,18 @@ div.view-nettbutikk table td {
   vertical-align: middle;
 }
 
-/* Hide allergy for bus ticket ;-) */
-form.commerce-order-item-add-to-cart-form-commerce-product-7 div.form-item-field-allergies-0-value {
+/* Hide allergy for bus ticket and license */
+form.commerce-order-item-add-to-cart-form-commerce-product-7 div.field--name-field-allergies, 
+form.commerce-order-item-add-to-cart-form-commerce-product-8 div.field--name-field-allergies {
   display: none;
+}
+
+/* Hide name and birth date for everything but license */
+form.commerce-order-item-add-to-cart-form div.field--name-field-personinfo {
+  display: none;
+}
+form#commerce-order-item-add-to-cart-form-commerce-product-8 div.field--name-field-personinfo {
+  display: block;
 }
 
 article.embedded-entity {
